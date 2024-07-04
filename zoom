@@ -1752,7 +1752,7 @@ clickTarget.on("mousedown touchstart", function() {
     });
 
 })(jQuery);
-function nrzZoom(dataAccText) {
+function ZoomFunc(dataAccText) {
   let div = document.querySelector(`[data-acc-text='${dataAccText}']`);
   $(div).zoomTarget();
   
